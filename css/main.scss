@@ -9,7 +9,6 @@ body {
     background-image: linear-gradient(#F2F8FF, #C6D9F0);
     margin: 0;
     font-family: open sans;
-    
 }
 
 .navbar {
@@ -217,7 +216,6 @@ footer {
 @media only screen and (max-width: 500px) {
 
 .navbar {
-    
     position: relative;
     left: 2.5em;
     width: 50em;
@@ -231,7 +229,6 @@ footer {
 }
 
 .hero {
-    
     align-items: center;
     height: 85em;
     width: 27em;
@@ -240,7 +237,6 @@ footer {
 }
 
 .right-col {
-    
     position: relative;
     height: 25em;
     width: 24em;
@@ -249,7 +245,6 @@ footer {
 }
 
 .hero-img {
-    
     width: 25em;
     height: 25em;
     
@@ -280,9 +275,10 @@ footer {
 
 
 .section-break {
+    border: solid 2px black;
     overflow: hidden;
     position: relative;
-    width: 68em;
+    width: 48em;
     height: 25em;
     bottom: 40em;
     right: 45em;
@@ -295,7 +291,6 @@ footer {
     }
 
     .contact-left {
-        
         position: relative;
         right: 22em;
     }
@@ -311,7 +306,6 @@ footer {
     }
 
 .contact-right {
-    
     position: relative;
     right: 56.5em;
     top: 5em;
@@ -333,10 +327,10 @@ textarea {
 }
 
 footer {
-    
-    position: fixed;
+    border: solid 2px black;
     bottom: 0;
-    width: 27em;
+    margin-left: 1em;
+    width: 100vw;
     padding: .5em;
     text-align: center;
 }

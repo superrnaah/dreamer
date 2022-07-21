@@ -241,9 +241,10 @@ footer .signoff {
     text-align: center;
   }
   .section-break {
+    border: solid 2px black;
     overflow: hidden;
     position: relative;
-    width: 68em;
+    width: 48em;
     height: 25em;
     bottom: 40em;
     right: 45em;
@@ -283,9 +284,10 @@ footer .signoff {
     margin-top: 1em;
   }
   footer {
-    position: fixed;
+    border: solid 2px black;
     bottom: 0;
-    width: 27em;
+    margin-left: 1em;
+    width: 100vw;
     padding: 0.5em;
     text-align: center;
   }
