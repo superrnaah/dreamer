@@ -3,6 +3,13 @@
   --primary-color: #4D80BF ;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-image: linear-gradient(#F2F8FF, #C6D9F0);
   margin: 0;
@@ -236,12 +243,14 @@ footer .signoff {
     text-align: center;
   }
   .left-col ul.bottom {
-    font-size: 1em;
-    padding: 2em;
+    position: relative;
+    bottom: -2em;
+    left: 0em;
+    font-size: 1.5em;
+    padding: 1em;
     text-align: center;
   }
   .section-break {
-    border: solid 2px black;
     overflow: hidden;
     position: relative;
     width: 48em;
@@ -259,12 +268,10 @@ footer .signoff {
     right: 22em;
   }
   .name {
-    position: relative;
-    left: 7em;
+    margin-left: 7.5em;
   }
   .email {
-    position: relative;
-    left: 7em;
+    margin-left: 7.5em;
   }
   .contact-right {
     position: relative;
@@ -272,23 +279,22 @@ footer .signoff {
     top: 5em;
   }
   .message {
-    position: relative;
-    left: 5.5em;
+    margin-left: 5.5em;
   }
   textarea {
     height: 10em;
     width: 25em;
   }
   .send-message-cta {
-    left: 6em;
-    margin-top: 1em;
+    left: 0.4em;
+    margin-top: 2em;
+  }
+  input[type=submit] {
+    width: 20em;
   }
   footer {
-    border: solid 2px black;
-    bottom: 0;
-    margin-left: 1em;
     width: 100vw;
-    padding: 0.5em;
+    padding: 1em;
     text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
