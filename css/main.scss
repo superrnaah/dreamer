@@ -4,12 +4,12 @@
     --primary-color: #4D80BF
 }
 
+
 body {
     background-image: linear-gradient(#F2F8FF, #C6D9F0);
     margin: 0;
     font-family: open sans;
-    overflow-x: hidden;
-    height: auto;
+    
 }
 
 .navbar {
@@ -29,61 +29,66 @@ a {
     }
 }
 
+
 .left-col {
+    
     position: relative;
-    width: 50%;
-    margin: 0;
-    padding: 0;
-}
+    left: 3em;
+    top: 3em;
 
-ul.top {
-    position: relative;
-    color: #4D80BF;
-    font-weight: 800;
-    font-size: 4.5em;
-    list-style-type: none;
-    text-transform: uppercase;
-    padding: 0;
-    bottom: -1em;
-    margin: 1em;
+    ul.top {
+        position: relative;
+        color: #4D80BF;
+        font-weight: 800;
+        font-size: 4.5em;
+        list-style-type: none;
+        text-transform: uppercase;
+        padding: 0;
+        bottom: -1em;
+        margin: 1em;
+    }
+    
+    ul.bottom {
+        color: #8A2B0D;
+        font-size: 1.5em;
+        list-style-type: none;
+        text-transform: uppercase;
+        padding-top: 5em;
+        left: 1.5em;
+        bottom: 2.5em;
+        margin: 0;
+    }
 }
-
-ul.bottom {
-    color: #BEC9CB;
-    font-size: 1.5em;
-    list-style-type: none;
-    text-transform: uppercase;
-    padding-top: 5em;
-    position: relative;
-    left: 1em;
-    bottom: 2.5em;
-    margin: 0;
-}
-
 
 
 .right-col {
+    
     position: relative;
-    left: 55em;
-    bottom: 40em;
-    .hero-img {
-        position: relative;
-       }
+    left: 65em;
+    bottom: 35em;
 }
 
+
 .section-break {
-    position: relative;
-    bottom: 39.5em;
-    right: 10em;
-    width: 75%;
+    
+    padding-right: 25em;
+    width: 100vw;
 }
 
 .break {
+    
+    display: inline-block;
     position: relative;
+    right: 10em;
+    top: 2em;
 }
 
 .container-contact {
-    height: auto;
+    
+    padding-top: 2em;
+    width: 100%;
+    bottom: 40em;
+    height: 40em;
 }
 
 h2 {
@@ -91,81 +96,84 @@ h2 {
     font-size: 4em;
     text-transform: uppercase;
     color: var(--primary-color);
-    position: relative;
-    bottom: 10em;
+    bottom: 11em;
 }
 
-form {
+.contact-left {
     position: relative;
-    bottom: 35em;
+    padding: 1em;
+    padding-left: 25em;
+    top: 2em
 }
 
-.name {
+.form {
+    height: 425px;
+}
+.contact-right {
     position: relative;
-    left: 25em;
-    top: 8em;
-    padding-bottom: 1em;
+    padding-left: 60em;
+    bottom: 17em;
 }
 
 label {
-    display: flex;
     font-size: 2em;
-    margin-bottom: .1em;
     color: var(--primary-color);
     text-transform: uppercase;
     }
 
-label .message {
-        position: relative;
-        left: 2em;
-    }
-        
-    
-
-input {
-        width: 15em;
-        height: 3em;
-        border-radius: 2em;
-        border: none;
-        bottom: 5em;
-        margin-left: 10px;
-    }
-    
-.email {
+.name {
     margin-top: 2.5em;
-}
-
-input#email {
-    margin-top: 1em;
     margin-left: .5em;
 }
 
-input, textarea {
-    border-radius: .3em;
-    border: 1px solid gray;
-    box-sizing: border-box;
+input#name {
+    margin-top: .5em;
+    margin-left: .5em;
+}
+
+.email {
+    margin-top: 2.5em;
+    margin-left: .5em;
+}
+
+input#email {
+    margin-top: .5em;
+    margin-left: .5em;
+}
+
+.message {
+    margin-bottom: -1em;
 }
 
 
+input, textarea {
+    box-sizing: border-box;
+}
 
 input, text {
-    top: 10em;
     width: 25em;
     height: 4em;
-    border-radius: 1em;
+    border-radius: .5em;
     border: none;
 }
 
 textarea {
+    
     height: 20em;
     width: 45em;
-    border-radius: 2em;
+    border-radius: .5em;
     border: none;
     margin-top: 2em;
+    resize: none;
 }
 
+textarea:focus {
+    border: 3px solid gray;
+}
+
+
+
 .message-area {
-    position: relative;
     left: 55em;
     bottom: 11em;
 }
@@ -173,19 +181,164 @@ textarea {
 input[type="submit"] {
     background-color: var(--primary-color);
     font-family: 700;
-    position: relative;
     color: white;
     border-radius: 5em;
     width: 10em;
     height: 2.5em;
     border: none;
     font-size: 1em;
-    left: 82.5em;
-    top: -10em;
     cursor: pointer;
 }
 
 .send-message-cta {
+    
     font-family: open sans;
     font-weight: 700;
+    position: relative;
+    left: 27.5em;
+    margin-top: .5em;
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #ffffff;
+    height: 3em;
+    .signoff {
+        font-weight: 800;
+    }
+}
+
+
+//*~~~~~~~~~~~~~~~~~~~ MOBILE  PAGE ~~~~~~~~~~~~~~~~~~~*//
+
+
+@media only screen and (max-width: 500px) {
+
+.navbar {
+    
+    position: relative;
+    left: 2.5em;
+    width: 50em;
+    height: 5em;
+    padding-top: 3em;
+
+    a {
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+.hero {
+    
+    align-items: center;
+    height: 85em;
+    width: 27em;
+    margin: 0;
+    
+}
+
+.right-col {
+    
+    position: relative;
+    height: 25em;
+    width: 24em;
+    left: 1.5em;
+    bottom: 20em;
+}
+
+.hero-img {
+    
+    width: 25em;
+    height: 25em;
+    
+}
+
+.left-col {
+    height: 20em;
+    margin: 0;
+    width: 24em;
+    left: 1.5em;
+    top: 25em;
+    text-align: center;
+
+    ul.top {
+        width: 10em;
+        padding: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    ul.bottom {
+        font-size: 1em;
+        padding: 2em;
+        text-align: center;
+    }
+
+}
+
+
+.section-break {
+    overflow: hidden;
+    position: relative;
+    width: 68em;
+    height: 25em;
+    bottom: 40em;
+    right: 45em;
+}
+    
+.container-contact {
+    position: relative;
+    bottom: 40em;
+    height: 55em;
+    }
+
+    .contact-left {
+        
+        position: relative;
+        right: 22em;
+    }
+
+    .name {
+        position: relative;
+        left: 7em;
+    }
+
+    .email {
+        position: relative;
+        left: 7em;
+    }
+
+.contact-right {
+    
+    position: relative;
+    right: 56.5em;
+    top: 5em;
+}
+ 
+.message {
+    position: relative;
+    left: 5.5em;
+}
+
+textarea {
+    height: 10em;
+    width: 25em;
+}
+
+.send-message-cta {
+    left: 6em;
+    margin-top: 1em;
+}
+
+footer {
+    
+    position: fixed;
+    bottom: 0;
+    width: 27em;
+    padding: .5em;
+    text-align: center;
+}
+    
 }
