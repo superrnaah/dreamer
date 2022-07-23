@@ -192,6 +192,8 @@ footer {
   height: 3em;
 }
 footer .signoff {
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 800;
 }
 
@@ -259,6 +261,11 @@ footer .signoff {
     margin-left: auto;
     margin-right: auto;
     bottom: 30em;
+  }
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
   }
   .contact-left {
     position: relative;

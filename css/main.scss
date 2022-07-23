@@ -206,6 +206,8 @@ footer {
     color: #ffffff;
     height: 3em;
     .signoff {
+        margin-left: auto;
+        margin-right: auto;
         font-weight: 800;
     }
 }
@@ -294,6 +296,12 @@ footer {
     bottom: 30em;
     }
 
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
     .contact-left {
         position: relative;
         right: 22em;
@@ -338,10 +346,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    .signoff {
-        
-    }
 }
-    
+
 }
