@@ -159,10 +159,6 @@ textarea {
   resize: none;
 }
 
-textarea:focus {
-  border: 3px solid gray;
-}
-
 .message-area {
   left: 55em;
   bottom: 11em;
@@ -212,10 +208,10 @@ footer .signoff {
     font-size: 2em;
   }
   .hero {
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     height: 85em;
     width: 27em;
-    margin: 0;
   }
   .right-col {
     position: relative;
@@ -253,19 +249,21 @@ footer .signoff {
   .section-break {
     overflow: hidden;
     position: relative;
-    width: 48em;
+    width: 45em;
     height: 25em;
     bottom: 40em;
-    right: 45em;
+    right: 35em;
   }
   .container-contact {
     position: relative;
-    bottom: 40em;
-    height: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30em;
   }
   .contact-left {
     position: relative;
     right: 22em;
+    margin: 0;
   }
   .name {
     margin-left: 7.5em;
@@ -277,6 +275,7 @@ footer .signoff {
     position: relative;
     right: 56.5em;
     top: 5em;
+    margin: 0;
   }
   .message {
     margin-left: 5.5em;
@@ -293,8 +292,9 @@ footer .signoff {
     width: 20em;
   }
   footer {
-    width: 100vw;
     padding: 1em;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */
