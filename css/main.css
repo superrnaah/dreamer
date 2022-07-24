@@ -13,6 +13,8 @@ body {
   background-image: linear-gradient(#F2F8FF, #C6D9F0);
   margin: 0;
   font-family: open sans;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -427,6 +429,10 @@ footer .signoff {
   .section-break .break {
     width: 3376px;
     height: 563px;
+  }
+  .container-contact {
+    position: relative;
+    bottom: 11em;
   }
   .container-contact h2 {
     position: relative;
