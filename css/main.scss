@@ -213,10 +213,10 @@ footer {
 }
 
 
-//*~~~~~~~~~~~~~~~~~~~ MOBILE  PAGE ~~~~~~~~~~~~~~~~~~~*//
+//*~~~~~~~~~~~~~~~~~~~ MOBILE  PAGE 428x1428 ~~~~~~~~~~~~~~~~~~~*//
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 553px) {
 
 .navbar {
     position: relative;
@@ -248,8 +248,8 @@ footer {
 }
 
 .hero-img {
-    width: 25em;
-    height: 25em;
+    width: 400px;
+    height: 380px;
     
 }
 
@@ -303,9 +303,9 @@ footer {
 }
 
     .contact-left {
-        position: relative;
         right: 22em;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .name {
@@ -317,7 +317,6 @@ footer {
     }
 
 .contact-right {
-    position: relative;
     right: 56.5em;
     top: 5em;
     margin: 0;
@@ -338,6 +337,8 @@ textarea {
 }
 
 input[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
     width: 20em;
 }
 
@@ -346,6 +347,222 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+}
+//*~~~~~~~~~~~~~~~~~~~ TABLET PAGE 1024x1428 ~~~~~~~~~~~~~~~~~~~*//
+
+@media only screen and (min-width: 554px) {
+
+   .navbar {
+    text-align: center;
+    
+    a{
+        font-size: 5em;
+    }
+   }
+
+   .hero {
+    position: relative;
+    text-align: left; 
+    height: 45em;
+   }
+
+   .left-col {
+    position: relative;
+    margin-top: 5em;
+    text-align: left;  
+
+      ul.top {
+        margin-left: 25px;
+        font-size: 3em;
+        right: 1em;
+      }
+
+      ul.bottom {
+        position: relative;
+        margin-left: -69px;
+        padding-left: 0;
+        font-size: 2em;
+      }
+   }
+   
+   .right-col {
+    left: 17em;
+   }
+
+.hero-img {
+    position: relative;
+    left: 17em;
+    top: 9em;
+    width: 440px;
+    height: 420px;
+}
+
+.section-break {
+    position: relative;
+    right: 27em;
+    bottom: 5em;
+}
+
+.container-contact {
+    position: relative;
+    right: 0;
+    bottom: 4em;
+}
+
+.contact-left {
+    right: 19em;
+}
+
+.contact-right {
+    right: 28em;
+    bottom: 14.5em;
+}
+
+textarea {
+    height: 14.6em;
+    width: 29em;
+}
+
+input[type="submit"] {
+    left: 14em;
+}
+
+
+.signoff {
+    position: relative;
+    top: 12px;
+}
+}
+
+//*~~~~~~~~~~~~~~~~~~~ DESKTOP PAGE 1366x1428 ~~~~~~~~~~~~~~~~~~~*//
+
+@media only screen and (min-width: 1340px) {
+
+    .navbar {
+        margin-top: 9px;
+        
+        a{
+        position: relative;
+            font-size: 40px;
+            right: 11em;
+
+        }
+       }
+
+.left-col {
+    left: 9em;
+}
+
+
+    .hero-img {
+        position: relative;
+        left: 32em;
+        top: 7em;
+        width: 520px;
+        height: 500px;
+    }
+
+.form {
+    position: relative;
+    left: 12em;
+    bottom: 2em;
+}
+
+}
+
+//*~~~~~~~~~~~~~~~~~~~ DESKTOP PAGE 2560px ~~~~~~~~~~~~~~~~~~~*//
+
+@media only screen and (min-width: 1600px) {
+
+.navbar a {
+    right: 27em;
+}
+
+.hero {
+    height: 75em;
+    
+.left-col {
+    top: 2em;
+
+    ul.top {
+        font-size: 6em;
+    }
+
+    ul.bottom {
+        left: 2px;
+        font-size: 3em;
+    }
+}
+
+    .right-col {
+
+    .hero-img {
+        top: -22em;
+        left: 73em;
+        width: 1000px;
+        height: 980px;
+    }
+    }
+}
+
+.section-break {
+    bottom: 13em;
+    left: -12em;
+
+    .break {
+        width: 3376px;
+        height: 563px;
+    }
+}
+
+.container-contact {
+
+    h2 {
+        position: relative;
+        font-size: 6em;
+        bottom: 2em;
+    }
+}
+
+.form {
+    left: 30em;
+    bottom: 12em;
+}
+
+label {
+    font-size: 3em;
+}
+
+.message-area {
+    position: relative;
+    bottom: 9em;
+    left: 11em;
+}
+
+textarea {
+    height: 26.6em;
+    width: 62em;
+}
+
+input, text {
+    width: 27em;
+    height: 5em;
+}
+
+input[type="submit"] {
+    left: 43em;
+    margin-top: 1em;
+    bottom: 9em;
+    width: 20em;
+    height: 4em;
+}
+
+
+.signoff {
+    position: relative;
+    top: 12px;
 }
 
 }
