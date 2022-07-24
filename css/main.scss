@@ -79,7 +79,6 @@ a {
 }
 
 .break {
-    display: inline-block;
     position: relative;
     right: 10em;
     top: 2em;
@@ -279,31 +278,26 @@ footer {
 
 
 .section-break {
-    overflow: hidden;
     position: relative;
     width: 45em;
     height: 25em;
     bottom: 40em;
-    right: 35em;
+}
+
+.break {
+    right: 90em;
 }
     
 .container-contact {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
     bottom: 30em;
     }
 
 .form {
-    margin-left: auto;
-    margin-right: auto;
     width: 100vw;
 }
 
     .contact-left {
         right: 22em;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .name {
@@ -399,8 +393,11 @@ footer {
 
 .section-break {
     position: relative;
-    right: 27em;
     bottom: 5em;
+}
+
+.break {
+    right: 85em;
 }
 
 .container-contact {
@@ -506,11 +503,11 @@ input[type="submit"] {
 
 .section-break {
     bottom: 21em;
-    left: -12em;
 
     .break {
         width: 3376px;
         height: 563px;
+        right: 30em;
     }
 }
 
