@@ -37,7 +37,6 @@ a {
 
 
 .left-col {
-    
     position: relative;
     left: 3em;
     top: 3em;
@@ -68,7 +67,6 @@ a {
 
 
 .right-col {
-    
     position: relative;
     left: 65em;
     bottom: 35em;
@@ -76,13 +74,11 @@ a {
 
 
 .section-break {
-    
     padding-right: 25em;
     width: 100vw;
 }
 
 .break {
-    
     display: inline-block;
     position: relative;
     right: 10em;
@@ -90,7 +86,8 @@ a {
 }
 
 .container-contact {
-    
+    position: relative;
+    z-index: auto;
     padding-top: 2em;
     width: 100%;
     bottom: 40em;
@@ -106,6 +103,9 @@ h2 {
 }
 
 .contact-left {
+    border: solid 1px #8A2B0D;
+    z-index: 100;
+    width: 25em;
     position: relative;
     padding: 1em;
     padding-left: 25em;
@@ -116,6 +116,7 @@ h2 {
     height: 425px;
 }
 .contact-right {
+    border: solid 1px #8A2B0D;
     position: relative;
     padding-left: 60em;
     bottom: 17em;
@@ -164,7 +165,6 @@ input, text {
 }
 
 textarea {
-    
     height: 20em;
     width: 45em;
     border-radius: .5em;
@@ -192,7 +192,6 @@ input[type="submit"] {
 }
 
 .send-message-cta {
-    
     font-family: open sans;
     font-weight: 700;
     position: relative;
@@ -408,7 +407,6 @@ footer {
 
 .container-contact {
     position: relative;
-    right: 0;
     bottom: 4em;
 }
 
