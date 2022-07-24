@@ -6,7 +6,6 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -508,7 +507,7 @@ input[type="submit"] {
 }
 
 .section-break {
-    bottom: 13em;
+    bottom: 21em;
     left: -12em;
 
     .break {
