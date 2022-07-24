@@ -82,6 +82,7 @@ a {
     position: relative;
     right: 10em;
     top: 2em;
+    overflow-x: hidden;
 }
 
 .container-contact {
@@ -214,6 +215,7 @@ footer {
 
 
 @media only screen and (max-width: 553px) {
+
 
 .navbar {
     position: relative;
