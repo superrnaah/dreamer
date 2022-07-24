@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="804.014" height="754.552" viewBox="0 0 804.014 754.552">
+  <defs>
+    <filter id="Path_1" x="0" y="0" width="647.331" height="647.331" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="106.628" y="57.166" width="697.386" height="697.386" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="24.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="DDC-LOGO-copy" transform="translate(22.83 -90.75)" style="isolation: isolate">
+    <g transform="matrix(1, 0, 0, 1, -22.83, 90.75)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M583,226.492A320.783,320.783,0,0,0,356.484,133.25C178.75,133.25,34.67,277.332,34.67,455.064a320.771,320.771,0,0,0,93.242,226.517Z" transform="translate(22.83 -90.75)" fill="#4d80bf"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -22.83, 90.75)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M953.079,399.4a320.808,320.808,0,0,1,95.3,228.572c0,177.734-144.082,321.814-321.814,321.814a320.808,320.808,0,0,1-228.572-95.3Z" transform="translate(-314.86 -284.73)" fill="#d2d7d3"/>
+    </g>
+  </g>
+</svg>
