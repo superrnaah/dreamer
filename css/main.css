@@ -96,7 +96,6 @@ h2 {
 }
 
 .contact-left {
-  border: solid 1px #8A2B0D;
   z-index: 100;
   width: 25em;
   position: relative;
@@ -110,7 +109,6 @@ h2 {
 }
 
 .contact-right {
-  border: solid 1px #8A2B0D;
   position: relative;
   padding-left: 60em;
   bottom: 17em;
