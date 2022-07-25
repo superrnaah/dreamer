@@ -8,7 +8,8 @@ html, body {
     max-width: 100%;
     padding: 0;
     margin: 0;
-    
+    position:relative;
+    overflow-x:hidden;
 }
 
 body {
@@ -16,8 +17,6 @@ body {
     margin: 0;
     font-family: open sans;
     width:100%;
-    position:relative;
-    overflow-x:hidden;
 }
 
 .navbar {
@@ -221,13 +220,10 @@ footer {
 
 .navbar {
     position: relative;
-    left: 2.5em;
-    width: 50em;
-    height: 5em;
-    padding-top: 3em;
-
+    text-align: center;
+    
+    
     a {
-        text-align: center;
         font-size: 2em;
     }
 }
@@ -294,6 +290,8 @@ footer {
     
 .container-contact {
     bottom: 30em;
+    width: 28em;
+    height: 58em;
     }
 
 .form {

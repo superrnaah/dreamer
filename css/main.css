@@ -7,6 +7,8 @@ html, body {
   max-width: 100%;
   padding: 0;
   margin: 0;
+  position: relative;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,7 +16,6 @@ body {
   margin: 0;
   font-family: open sans;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -75,6 +76,7 @@ a span {
   position: relative;
   right: 10em;
   top: 2em;
+  overflow-x: hidden;
 }
 
 .container-contact {
@@ -204,13 +206,9 @@ footer .signoff {
 @media only screen and (max-width: 553px) {
   .navbar {
     position: relative;
-    left: 2.5em;
-    width: 50em;
-    height: 5em;
-    padding-top: 3em;
+    text-align: center;
   }
   .navbar a {
-    text-align: center;
     font-size: 2em;
   }
   .hero {
@@ -263,6 +261,8 @@ footer .signoff {
   }
   .container-contact {
     bottom: 30em;
+    width: 28em;
+    height: 58em;
   }
   .form {
     width: 100vw;
