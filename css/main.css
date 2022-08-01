@@ -397,9 +397,9 @@ footer .signoff {
     bottom: 2em;
   }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1920px) {
   .navbar a {
-    right: 27em;
+    right: 17.5em;
   }
   .hero {
     height: 75em;
@@ -408,20 +408,20 @@ footer .signoff {
     top: 2em;
   }
   .hero .left-col ul.top {
-    font-size: 6em;
+    font-size: 5em;
   }
   .hero .left-col ul.bottom {
     left: 2px;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .hero .right-col .hero-img {
     top: -22em;
-    left: 73em;
+    left: 41em;
     width: 1000px;
     height: 980px;
   }
   .section-break {
-    bottom: 21em;
+    bottom: 34em;
   }
   .section-break .break {
     width: 3376px;
@@ -430,12 +430,14 @@ footer .signoff {
   }
   .container-contact {
     position: relative;
-    bottom: 11em;
+    bottom: 23em;
+    right: 20em;
   }
   .container-contact h2 {
     position: relative;
     font-size: 6em;
     bottom: 2em;
+    right: -3em;
   }
   .form {
     left: 30em;

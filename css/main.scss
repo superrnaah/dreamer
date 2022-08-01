@@ -470,10 +470,10 @@ input[type="submit"] {
 
 //*~~~~~~~~~~~~~~~~~~~ DESKTOP PAGE 2560px ~~~~~~~~~~~~~~~~~~~*//
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1920px) {
 
 .navbar a {
-    right: 27em;
+    right: 17.5em;
 }
 
 .hero {
@@ -483,12 +483,12 @@ input[type="submit"] {
     top: 2em;
 
     ul.top {
-        font-size: 6em;
+        font-size: 5em;
     }
 
     ul.bottom {
         left: 2px;
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 
@@ -496,7 +496,7 @@ input[type="submit"] {
 
     .hero-img {
         top: -22em;
-        left: 73em;
+        left: 41em;
         width: 1000px;
         height: 980px;
     }
@@ -504,7 +504,7 @@ input[type="submit"] {
 }
 
 .section-break {
-    bottom: 21em;
+    bottom: 34em;
 
     .break {
         width: 3376px;
@@ -515,12 +515,14 @@ input[type="submit"] {
 
 .container-contact {
     position: relative;
-    bottom: 11em;
+    bottom: 23em;
+    right: 20em;
 
     h2 {
         position: relative;
         font-size: 6em;
         bottom: 2em;
+        right: -3em;
     }
 }
 
