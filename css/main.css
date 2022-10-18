@@ -23,7 +23,8 @@ html, body {
 }
 
 body {
-  background-image: linear-gradient(#F2F8FF, #C6D9F0);
+  background-color: #2D3033;
+  /* background-image: linear-gradient(#F2F8FF, #C6D9F0); */
   font-family: open sans;
 }
 
