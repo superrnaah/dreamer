@@ -133,12 +133,13 @@ img {
 /* ////////////////////////////// CONTACT START ////////////////////////////////// */
 
 .container-contact {
+  padding: 0 2em;
   margin-top: 15em;
   display: flex;
   column-gap: 10em;
   justify-content: center;
   min-height: 60vh;
-  max-width: 100vw;
+  min-width: 100%;
   font-family: 'Roboto Slab', serif;
   color: var(--primary-color);
 }
@@ -248,5 +249,20 @@ footer {
 
 @media screen and (max-width: 840px) {
   .hero {
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .container-contact {
+    position: relative;
+    display: block;
+    margin: auto;
+    min-width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
   }
 }
