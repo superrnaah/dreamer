@@ -47,6 +47,10 @@ body {
   font-size: clamp(2.5em,3.5vw,3em);
 }
 
+.logo:visited {
+  color: #D2D7D3;
+}
+
 .logo span {
   color: var(--primary-color);
 }
@@ -264,5 +268,9 @@ footer {
 
   h2 {
     text-align: center;
+  }
+
+  .send-message-cta {
+    margin-bottom: 5em;
   }
 }
