@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nabla&family=Press+Start+2P&family=Roboto+Slab:wght@400;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 :root {
   --primary-color: #4D80BF ;
@@ -99,14 +98,17 @@ li {
 }
 
 .problem {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
   letter-spacing: 10px;
   line-height: 50px;
+  text-align: center
 }
 
 
 .solve {;
   color: #D2D7D3;
+  letter-spacing: 10px;
+
 }
 
 .hero-img {
@@ -144,7 +146,7 @@ img {
 
 .info {
   font-size: clamp(.1px, -0.875rem + 8.333vw, 1.2em);
-  padding: 35px 25px;
+  padding: 45px 25px;
   text-align: center;
   border: solid 1px #F1CA21;
   height: clamp(100px, 50vw, 250px);
@@ -184,12 +186,6 @@ a:visited {
   color: var(--primary-color);
 }
 
-
-
-
-form {
-  margin-top: 1.8em;
-}
 
 label {
   font-size: 25px;
@@ -282,10 +278,12 @@ footer {
 
 
 .info {
-  margin: 0 auto;
+  margin: 5em auto;
 }
 
-
+.hero-img {
+  margin-bottom: -5em;
+}
 
   .container-contact {
     margin-bottom: 5em;
@@ -303,6 +301,12 @@ footer {
   .send-message-cta {
     margin-bottom: 5em;
   }
+}
+
+.foot-container {
+  padding-left: 2em;
+  padding-right: 2em;
+
 }
 
 @keyframes pulsate {
